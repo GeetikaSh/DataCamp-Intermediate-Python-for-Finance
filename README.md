@@ -1,6 +1,6 @@
 # DataCamp-Intermediate-Python-for-Finance
-datetime.datetime.now(): To display current time\
-datetime.datetime(year,month,date): create a datein format year, month, day
+[datetime.datetime.now()](https://github.com/GeetikaSh/DataCamp-Intermediate-Python-for-Finance/blob/main/Creating%20Datetimes%20For%20dates): To display current time\
+[datetime.datetime(year,month,date)](https://github.com/GeetikaSh/DataCamp-Intermediate-Python-for-Finance/blob/main/Creating%20Datetimes%20For%20dates): create a datein format year, month, day
 
 **x = datetime.datetime(2018, 6, 1)**\
 print(x.strftime("%B"))\
