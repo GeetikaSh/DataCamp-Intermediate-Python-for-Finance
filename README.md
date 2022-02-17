@@ -35,4 +35,6 @@ Output: June
 %u	ISO 8601 weekday (1-7)	                              1	\
 %V	ISO 8601 weeknumber (01-53)                         	01\
 
-**[datetime.strptime()](https://github.com/GeetikaSh/DataCamp-Intermediate-Python-for-Finance/blob/main/Converting%20format%20with%20datetimes):** Creates a datetime for a string
+**[datetime.strptime()](https://github.com/GeetikaSh/DataCamp-Intermediate-Python-for-Finance/blob/main/Converting%20format%20with%20datetimes):** Creates a datetime for a string\
+
+ **timedelta()**: function is present under datetime library which is generally used for calculating differences in dates 
