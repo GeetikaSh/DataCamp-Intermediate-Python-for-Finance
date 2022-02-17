@@ -1,0 +1,22 @@
+#Part 1
+# Closing price for day before
+day_before_closing_price_date = closing_price_date - timedelta(days=1)
+
+# Safely print closing price day before or None if it's missing
+print(alphabet_hist.get(day_before_closing_price_date))
+
+#Part 2:
+# Get day eight weeks in future
+future_closing_price_date = closing_price_date + timedelta(weeks=8)
+
+# Safely get value for the future date or get string 'Missing' if the date is missing
+print(alphabet_hist.get(future_closing_price_date, 'Missing'))
+
+#Part 3
+# Print with key
+print(alphabet_hist)
+
+# Remove entry
+del(alphabet_hist[closing_price_date])
+# Print with key deleted
+print(alphabet_hist)
